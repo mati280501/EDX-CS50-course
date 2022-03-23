@@ -1,0 +1,141 @@
+body{
+    font-family: arial;
+    width: 100%;
+}
+
+a {
+    color: grey;
+    font-size: 14px;
+    text-decoration: none;
+    padding-right: 20px;
+    float: right;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.search {
+    max-height: 400px;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 300px;
+}
+
+div img {
+    padding-left: 164px;
+}
+
+#advanced-img {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 25px;
+}
+
+div p{
+    color: #4285f4;
+    font: 16px;
+    position: absolute;
+    padding-left: 380px;
+    top: 370px;
+}
+
+input {
+    margin: 5px;
+}
+
+#text {
+    border: 1px grey solid;
+    border-radius: 20px;
+    height: 30px;
+    width: 600px;
+    padding-left: 10px;
+}
+#submit {
+    text-align: center;
+    
+}
+
+#submit input{
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    border: 0px;
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+
+#submit input:hover {
+    border: 1px grey solid
+}
+
+.advanced {
+    border-bottom: 1px solid #ebebeb;
+}
+  
+.advanced h3 {
+    color: #d93025;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-top: 15px;
+    font-weight: normal;
+}
+  
+.input .text-heading {
+    font-size: 16px;
+    min-width: 167px;
+    width: 16%;
+    font-weight: 500;
+    color: #333;
+}
+  
+.input .ToDoHeading {
+    color: #777;
+    font-weight: bold;
+    font-size: 13px;
+}
+  
+.input {
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+  
+.input .text {
+    width: 200px;
+    font-size: 13px;
+}
+  
+.input .input-field {
+    min-width: 167px;
+    width: 50%;
+}
+  
+.input .input-field input {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%;
+}
+  
+.input .toDo {
+    width: 32%;
+    min-width: 160px;
+    color: #555;
+    font-size: 11px;
+    padding-left: 30px;
+}
+  
+span {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
